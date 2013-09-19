@@ -17,8 +17,8 @@ from PyLog import CLog
 CParticipant类：比赛人员类
 @成员变量
 id：比赛ID
-name：比赛姓名
-nick：比赛昵称
+name：姓名
+nick：昵称
 phoneNum：用户号码
 ojs：用户喜欢的比赛
 @方法
