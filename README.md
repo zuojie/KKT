@@ -1,4 +1,4 @@
-**This is really a cool project**! It's my graduation project;   
+**This is really a cool thing**! It's my graduation project;   
 Based on *MVC*, *Django* & *Python*;   
 Support information customization;   
 Back end spider retrieves information（Programming Contest, Goods on sale and discount, Job Presentation）on the Internet periodically, then push it to customer;     
