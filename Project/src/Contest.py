@@ -185,7 +185,7 @@ class CContestMain(object):
 		return my_phone.send_sms(msg, particitant.phoneNum)
 	def contestRun(self):
 		login_ok = False
-		phone = PyFetion('15801178340', 'acmsenjing123', "TCP", debug="FILE")
+		phone = PyFetion('15801178340', 'passwd', "TCP", debug="FILE")
 		try:
 			login_ok = phone.login(FetionHidden) 
 		except Exception, e:

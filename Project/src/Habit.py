@@ -99,7 +99,7 @@ class CHabitMain:
 		cect.commit()
 	def loginFetion(self):
 		is_login = False
-		phone = PyFetion('15801178340', 'acmsenjing123', "TCP", debug="FILE")
+		phone = PyFetion('15801178340', 'passwd', "TCP", debug="FILE")
 		try:
 			is_login = phone.login(FetionHidden)
 		except Exception, e:

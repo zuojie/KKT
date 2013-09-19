@@ -62,7 +62,7 @@ class CWeatherReportMain:
 			self.py_log.log("数据库操作失败，发生回滚", self.py_log.get_file_name(), self.py_log.get_line())
 	def loginFetion(self):
 		is_login = False
-		phone = PyFetion('15801178340', 'acmsenjing123', "TCP", debug="FILE")
+		phone = PyFetion('15801178340', 'passwd', "TCP", debug="FILE")
 		try:
 			is_login = phone.login(FetionHidden)
 		except Exception, e:
