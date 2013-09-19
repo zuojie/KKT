@@ -1,0 +1,108 @@
+Line:602 Fun:http_send  url:https://uid.fetion.com.cn/ssiportal/SSIAppSignInV4.aspx?mobileno=15801178340&domains=fetion.com.cn%3bm161.com.cn%3bwww.ikuwa.cn&v4digest-type=1&v4digest=244f29ed6cbbbc950264add77e14ccd080578912
+Line:1328 Fun:__get_uri  {'status': '101', 'body': '<?xml version="1.0" encoding="utf-8" ?><results status-code="200"><user uri="sip:409242450@fetion.com.cn;p=6912" mobile-no="15801178340" user-status="101" user-id="810249392"><credentials><credential domain="fetion.com.cn" c="ChIOAABYUYFEBytuXxg9GSnbhw5d9VQAYHUSKrbqryrA67d62eRhjYSWVECobfdL2zKK/q16uM7AgSK1dzDdI2iwH6FQ3KLiMu0zIWLp17axgnahct53NXDT71H7zHoiNUuDrycAAA==" /><credential domain="m161.com.cn" c="ChAOAAAWBsg+Fd54zO8PaIAlfr23KFDPsIOfc+9CnomCHDP6jjnYdjgmrhbF2PnCRPOLmklVqu2nGiUr7d1qTThCTa1s30ko/YZ/Q6dqG+dMkavEFg==" /><credential domain="www.ikuwa.cn" c="CRAOAAB2AX2qUWNT5eBD+vyQQrz3Oln938hVeDhP4dPQBjPMcRTAGvHxymCnsvZAjCoCeFkBbnGAvWNetG6+n259GuqfaVEJIP17M0Zzrc32eWEh1A==" /></credentials></user></results>', 'domain': 'fetion.com.cn', 'user_id': '810249392', 'ssic': 'DRIOAABG6akyX2rgx1B2QC56tv60G79bvFDWqZ5BrzXIVcPWDBJ8dHqMS192PUVNNZiHTNPv258CafFVPFmVo+sUSZA2CsXAwi9DPZ9CivsLFB0wA9qNmTo2bRu9ZejKWdpoaN0AAA==', 'url': 'https://uid.fetion.com.cn/ssiportal/SSIAppSignInV4.aspx?mobileno=15801178340&domains=fetion.com.cn%3bm161.com.cn%3bwww.ikuwa.cn&v4digest-type=1&v4digest=244f29ed6cbbbc950264add77e14ccd080578912', 'self': <PyFetion.PyFetion instance at 0x01AC6C38>, 'uri': 'sip:409242450@fetion.com.cn;p=6912', 'ret': <addinfourl at 28110200 whose fp = <socket._fileobject object at 0x01AC8FB0>>, 'header': 'Connection: close\r\nDate: Wed, 07 Mar 2012 13:14:51 GMT\r\nServer: Microsoft-IIS/6.0\r\nX-Powered-By: ASP.NET\r\nX-AspNet-Version: 2.0.50727\r\nSet-Cookie: ssic=DRIOAABG6akyX2rgx1B2QC56tv60G79bvFDWqZ5BrzXIVcPWDBJ8dHqMS192PUVNNZiHTNPv258CafFVPFmVo+sUSZA2CsXAwi9DPZ9CivsLFB0wA9qNmTo2bRu9ZejKWdpoaN0AAA==; path=/\r\nCache-Control: private\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 714\r\n', 'sid': '409242450'}
+Line:387 Fun:send  content:R fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 R
+CN: 491c23644b7769ede1af078cb14901e2
+CL: type="pc",version="4.1.1160"
+
+
+Line:439 Fun:send  response:SIP-C/4.0 401 Unauthoried
+F: 409242450
+I: 1
+Q: 1 R
+W: Digest algorithm="SHA1-sess-v4",nonce="3AD33B3D704F099F1C76A5452655DB4A",key="9917BEE4C6D1917321070122DFAC0AF1E4C390A47D4ACB6ADCDE84627AD6A6AD90CAEF8B7A1AF2AA65BD2B6C8CB63BA5F04079154A34CD8D0A3442589C6AD515EF132B09AEFEA7547754731FACD36FDC9D7A695D02807E8CF6BC6AE48C455CF7EC1DD0437406985ABC9535377029227DA040AF619522CB65549389577B226199010001",signature="B0DCEF19025BAC083FB809B376D561CEB5A09366274603A8A4291B22EDEC12E2D2F8210F7C09918A37D5A9904BC198451409152D51F6DEF004C44AFA8F8359203158A8C232F140076DC166BA4D5A7A59360DFA2AE478B403E6C2B31083FE488FD989AEE34FEA3919069FEE1854BB8C77E81186E0B437EBCE76E45AFA27165810"
+D: Wed, 07 Mar 2012 13:14:51 GMT
+
+
+Line:387 Fun:send  content:R fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 R
+A: Digest algorithm="SHA1-sess-v4",response="19ad014942a0ee267ede81c2d4a72f8efd3188146d240326472a2fcec30323072e4050757670e3f3eeaf844a08fcac36186b2f93f124c7e951b2f270f6ee3cbb3082031e03944ae42766faa2fd5275531a8b650aa353b76028a477bc6b89ffb943cbfe8abaffb1b6bf03da68df236742954d2f1575a037e40cdddf38a9b27f89"
+L: 576
+
+<args><device accept-language="default" machine-code="0A0003000000" /><caps value="1FFF" /><events value="7F" /><user-info mobile-no="15801178340" user-id="810249392"><personal version="0" attributes="v4default;alv2-version;alv2-warn;dynamic-version" /><custom-config version="0"/><contact-list version="0" buddy-attributes="v4default" /></user-info><credentials domains="fetion.com.cn;m161.com.cn;www.ikuwa.cn;games.fetion.com.cn;turn.fetion.com.cn;pos.fetion.com.cn;ent.fetion.com.cn;mms.fetion.com.cn"/><presence><basic value="400" desc="" /><extendeds /></presence></args>
+Line:439 Fun:send  response:SIP-C/4.0 200 OK
+I: 1
+Q: 1 R
+X: 600
+L: 9030
+
+<results><client public-ip="61.135.172.68" login-place="" last-login-ip="61.135.172.68" last-login-place="" last-login-time="Wed, 07 Mar 2012 13:08:05 GMT" current-login-time="Wed, 07 Mar 2012 13:14:52 GMT" /><user-info><personal version="383675485" register-email="" user-id="810249392" sid="409242450" mobile-no="15801178340" uri="sip:409242450@fetion.com.cn;p=6912" name="" nickname="LovableBabyJean" gender="0" impresa="除非飞信被盗，我从来不会在飞信上给盆友们借钱！" portrait-crc="0" birth-date="1900-01-01" birthday-valid="1" carrier="CMCC" carrier-status="0" carrier-region="CN.bj.10." user-region="CN.bj.10." profile="" blood-type="0" occupation="" hobby="" job-title="" home-phone="" work-phone="" other-phone="" personal-email="" work-email="" other-email="" primary-email="0" company="" company-website="" global-permission="identity=0;phone=1;email=1;birthday=1;business=0;presence=1;contact=1;location=3;buddy=2;ivr=2;buddy-ex=0;show=1;" sms-online-status="0.0:0:0" save-xeno-msg="0" email-binding-status="1" email-binding-alias="" set-pwd-question="0" alv2-version="0" alv2-warn="0" dynamic-version="-1926425522"/><configs><config name="weather-city">-1</config><config name="directsms-rec">1517966128</config><config name="send-offlinefile-sms">1</config><config name="group-invite-config">1</config><config name="sms-nickname-config">0</config><config name="syncto-shequ-config">0</config><config name="weather-regionex"></config><config name="weather-region"></config><config name="addbuddy-app-sms">0</config><config name="private-presence"></config><config name="permission-request">0</config><config name="sms-notify">0</config><config name="schedule-sms-receipt">1</config><config name="weather-ip">1</config><config name="rev-offlinefile-sms">1</config><config name="alv2-setwarn">0</config></configs><custom-config version="382575817">H4sIAM13Ok8EAHRW226rOhD9lf0DVbDNVbGQekn3jpS0VelRHysaJgnaYCNsmsPfH2NMYi6nqtTOWmsuNuOx6T8C6kfOjvmpqVOZcxbT+yw7cCbTg3yreVnJ2KGrGUaTM7/sUglC7kGI9AQiPqaFALpaYLT6Iy8VlpbV5gfqdi9Osawbo59zdMMk1B88AZYZoY3Q+0byd6iKdsPS7wKyIfsMp/tWQHHcssd+AWKXC2kiLlK62Be4mOo/r/nnOL2ZL1zmx9YoZzA9c/kX2i+hQjC4lOJ0Ue53GLkBxoggTFeLCvpWgwC5WPwiRd+h5BLe4QBMDoxxWKToLhVyx085675BjHAUkMDxXFWVFyHXp6uxgJqFqe+wT4ZNH2G3T7NlGfyr22eM0B1nJyVNQMqcDX0wAenzZvs2GCqGbdILpPIM9V1exYiuLIt+9v8/wTFtimGrJqDaVf6TswNsn+JuH2/GYy5b9Rc7UYCRimxsmpSib9PKaocRRhPJq85OWjGWzXD6u+ZN9ZSLqkjbPc+gW94M61UPY4Ex6cR55GcZeEJiVSYUcJCQ2S6m0AWmGwaqzcSQyDYHrlvchL9CVw2vpQbITTNAg0YvUCN36Kq6gddQLTv0nbiaIV3eV1bkDEx/K6O159KcpH2tNTyBTPNCWGfdRqnx0fWIeOesE7RO8Doha9UlI46aNtPmS6ornUNbvUk2bjIvELpGs1jtba3Ihm2d6jV7LTZK7y9p+8q2WTF8eguwyH3OGjXGY88WDKDRJYcagCWpGtujWDZOX4/HbttNBlP8GBxr/vCmFjGeiHqUPjRCJXhuiqJPYvLOYPrC+8/dz+DPM7BOM4zoZVI5jSb3zGuZpXYwXbht0+f0h9e5HBovxpEXhm7ghqp5phyt9YC++26yLFcb7XshcUnkur/UbPawj4gbhI7+Wbs49EhIIkdzhAQecrDhIs8jKPCNnxcQhFxkOOyEPiYO6bnQc1CE3UlMr+N8FAbIQ0O+a92aI0GAAoQdFBLfW7uBj1SVBGtORQuIGqFBRCK0DiM3Uin6Ov1AhXEIjrAXYaTzIYI9pLkI+UGoCiLd77WWoOMCR2VWFvYdTNw19tzIcT33ynmOGyKV3++O5GQT6aas8np8SY+g7ib/ziGRqWxE3C/X0Rf5DaVJXlYFjJXqeM1RFQ2yHpm8CyawPrEPeS3Pn1AceAlvqresYzuj6B91y/O6fedpqW7Cj7bSc3cBpR9nKOEhLQrO2UtTdrIpRMu+m7+YLudLPTm+QL+bhlP6/wL62KicJdT6HaLuT/FrpSbd/EH5HwAAAP//AAAAAGQKAAA=</custom-config><contact-list version="384447720"><buddy-lists><buddy-list id="1" name="老婆"/><buddy-list id="2" name="同学"/><buddy-list id="3" name="TS"/></buddy-lists><buddies><b i="203143158" u="sip:752674899@fetion.com.cn;p=4020" n="" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="208623034" u="sip:619063865@fetion.com.cn;p=1124" n="" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="209620561" u="sip:986729515@fetion.com.cn;p=1720" n="water" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="252787778" u="sip:757854609@fetion.com.cn;p=5975" n="" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="254815494" u="sip:733242635@fetion.com.cn;p=7007" n="" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="254904547" u="sip:682337266@fetion.com.cn;p=7008" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="295884748" u="sip:761923923@fetion.com.cn;p=2369" n="" l="1" f="359739397" r="1" o="0" p="identity=1;"/><b i="427364438" u="sip:930480238@fetion.com.cn;p=9912" n="" l="" f="0" r="1" o="0" p="identity=1;"/><b i="428513251" u="sip:483299184@fetion.com.cn;p=10101" n="汪洋" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538390" u="sip:754929598@fetion.com.cn;p=10101" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538395" u="sip:759058032@fetion.com.cn;p=10101" n="雪东" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538397" u="sip:769265920@fetion.com.cn;p=10101" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538400" u="sip:760223300@fetion.com.cn;p=10101" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538960" u="sip:748357094@fetion.com.cn;p=10101" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428621147" u="sip:853894946@fetion.com.cn;p=10101" n="" l="" f="0" r="1" o="0" p="identity=1;"/><b i="449171370" u="sip:736147807@fetion.com.cn;p=1022" n="" l="" f="0" r="1" o="0" p="identity=1;"/><b i="464967511" u="sip:586149380@fetion.com.cn;p=664" n="" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="472759106" u="sip:791758463@fetion.com.cn;p=9004" n="海文饶友才" l="0" f="0" r="1" o="0" p="identity=1;"/><b i="476194432" u="sip:761062135@fetion.com.cn;p=10101" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="476194434" u="sip:755744046@fetion.com.cn;p=10101" n="" l="" f="0" r="0" o="0" p="identity=1;"/><b i="476194565" u="sip:748388903@fetion.com.cn;p=10101" n="" l="" f="0" r="1" o="0" p="identity=1;"/><b i="654629920" u="sip:910364454@fetion.com.cn;p=12209" n="郑春梅老师" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="658343944" u="sip:916974015@fetion.com.cn;p=12201" n="" l="" f="0" r="1" o="0" p="identity=1;"/><b i="734514946" u="sip:753877900@fetion.com.cn;p=1649" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="894919290" u="sip:367920581@fetion.com.cn;p=3422" n="PigSuper" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="955317644" u="tel:15986801120" n="鸭子" l="3" r="1" o="0" p="identity=1;"/></buddies><chat-friends></chat-friends><blacklist></blacklist></contact-list><score value="2233" level="4" level-score="1376"/><services><service id="99"/></services><quotas><quota-limit><limit name="max-buddies" value="500"/><limit name="max-groupadmin-count" value="4"/><limit name="max-joingroup-count" value="20"/></quota-limit><quota-frequency><frequency name="send-sms" day-limit="1000" day-count="10" month-limit="15000" month-count="347"/></quota-frequency></quotas><capability-list basic-caps="1ffff" contact-caps="ffffff" extended-caps="201fff"><contact carrier="CMCC" contact-caps="ffffff" /><contact carrier="CMHK" contact-caps="9ffc9f" /><contact carrier="CMPAK" contact-caps="857c08" /><contact carrier="HK.OTHER" contact-caps="0" /><contact carrier="" contact-caps="a57008" /><contact carrier="SGSH" contact-caps="857c08" /><contact carrier="SGST" contact-caps="857c08" /></capability-list></user-info><credentials kernel="fqeooOYvTceAEpuvngONiV8b6lfiYVc/iiQFGIy7SoGSiyq6CrDy5neElYcsyvv7QAlVRUa7i+6X4W5aHvXUsnrh6tumedc9l6MDFNuwGBOHsKOqv0dna3yLWCatR5inh0pdJj1TPQnhkytjnCKngeibTK4A9U3S3c9rmDiKgsNDa+ruJlt/Jlx25TiN25w6"><credential domain="fetion.com.cn" c="m71626GAg8rQGIIgTlKMY7joqrQ9JUsorxry4PYaquxghaGIgL47hglsVdJmfVJdNJM0vozTZBy6pEybWfOPGa5uZT+vfFqZNHWUsgf4pti5Gw99OdhTR8Thnom1GFv1yOGA82/wl5TNjKti8BCHcxKn6syBFPHbQYvEDB4IRv1H4SDtt6otkGxLyfyLiYsw"/><credential domain="m161.com.cn" c="eMeaqHonu6KI7KeG/LCVZTDvGyUXMZfAeOka05CnAIOvcYdEmmzhX+rPEs0GMDaW4QPJM3gkD+6BAlTVXa/fCs9vaXVrS6caVazKVHAVIvPCAiwqCYRX1DnypM/Q1c/v1LkSa6dEOG/YnE/5FK4rhi+ae/EGgBfCuBLaA0i2wy4="/><credential domain="www.ikuwa.cn" c="E5w5AwWdrRXCLBlDZz7RqXYGxqz7bnRVLj5Fj1jz08NZxkMeFwRES532i3k+5/0o+rpKafoW4f8Ovl9EotBx6G2hCwIlqPTYBPx0NguzN0UlThjfeAm/FIWoJ23y4+CsxdIx4rmdln0EN9b5zkdTbdJXUiKUK/iKpG1nMMykSe4="/><credential domain="games.fetion.com.cn" c="ky6CHL3XOa6iOFAMuLcSYYkM7W7cVU0BLYP3jj75MyXBLPB7wYLons8r2ZysIe8+DwF5FQPqEn0+FbCaLiWJ/YoNyY7y+hbluC0uxDs83MtghyjeILbFulecjmQ/UY0+dnYEfkX7gP7qSbcwa2gVDelxdps2Qzq5G3XenyFGs9W3DDMo/BRpGv8v/oPaP1bd"/><credential domain="turn.fetion.com.cn" c="vVyNXI3BCgFNjW2NVpV+BnYtTLQAP+1Cv++jd48/DrGMbzcNl7bmGavzkFosVISOVcGP8zkK8ovGuvQzW+YkrX4h1A8IdRK5RDFcaFQV1s5Hzz8cGzccA2f3cIJnz+lLU+xMmOkD8tk8N01FZMQ8mdDPpRVySsTiW81jAUDsuZA="/><credential domain="pos.fetion.com.cn" c="qtHKXlJxWtLoJlKPntdtPXUS5If4skqqUUt4Fa7zl+SBCG8eqpcUsFPqU+Q2X08x4WB+GyDeifyqfw3t90ySr5J6tc2r4FIeK6yWHFezyfaFWsskdIYZONnabnljVrPitk1Enm+dhN8GYGgry59dEO0E7pUEIjDN+1qNETXxH/s="/><credential domain="ent.fetion.com.cn" c="+Ue7f5bYsv6qJepU9HNg4r7gxIRPUDFF2R4TSHkr+e0vT95vPKvPfzZOMQGGBjBRzG5KggWIzGaOag5v9a1grRPcS5faeEEEUQMKGmCsWq7LazkskWUIMEm+CFXkJ4zA8gifsm40dozKVHBw2/6qCl0FJHryoA7fWL52Uyb+d2/Hl/9+olXSaHeMK1x7FJw5"/><credential domain="mms.fetion.com.cn" c="xzxRuCGu62ysdE7mf1l96lk3jK+SfIMyz63IsOVEQAQdyrm9Yq4cu5rEyK8azvcBWotj1+IkvjHkildjKwRNkvhTqF/W7LTn8odA4pzOACYhdzb+48nm7BvCnCRZfy86VcuKm5Cf7mLcBFxtwfsbWX/zDfnEOhsmwF/UONX+Pi4="/></credentials></results>
+Line:1270 Fun:__register  register successful.
+Line:1032 Fun:_get_contactlist  {'sip:586149380@fetion.com.cn;p=664': ['', '', '0', 'B'], 'sip:759058032@fetion.com.cn;p=10101': ['\xe9\x9b\xaa\xe4\xb8\x9c', '', '0', 'B'], 'tel:15986801120': ['\xe9\xb8\xad\xe5\xad\x90', '15986801120', '0', 'T'], 'sip:791758463@fetion.com.cn;p=9004': ['\xe6\xb5\xb7\xe6\x96\x87\xe9\xa5\xb6\xe5\x8f\x8b\xe6\x89\x8d', '', '0', 'B'], 'sip:757854609@fetion.com.cn;p=5975': ['', '', '0', 'B'], 'sip:910364454@fetion.com.cn;p=12209': ['\xe9\x83\x91\xe6\x98\xa5\xe6\xa2\x85\xe8\x80\x81\xe5\xb8\x88', '', '0', 'B'], 'sip:769265920@fetion.com.cn;p=10101': ['', '', '0', 'B'], 'sip:755744046@fetion.com.cn;p=10101': ['', '', '0', 'B'], 'sip:753877900@fetion.com.cn;p=1649': ['', '', '0', 'B'], 'sip:986729515@fetion.com.cn;p=1720': ['water', '', '0', 'B'], 'sip:748357094@fetion.com.cn;p=10101': ['', '', '0', 'B'], 'sip:930480238@fetion.com.cn;p=9912': ['', '', '0', 'B'], 'sip:760223300@fetion.com.cn;p=10101': ['', '', '0', 'B'], 'sip:754929598@fetion.com.cn;p=10101': ['', '', '0', 'B'], 'sip:761923923@fetion.com.cn;p=2369': ['', '', '0', 'B'], 'sip:853894946@fetion.com.cn;p=10101': ['', '', '0', 'B'], 'sip:761062135@fetion.com.cn;p=10101': ['', '', '0', 'B'], 'sip:367920581@fetion.com.cn;p=3422': ['PigSuper', '', '0', 'B'], 'sip:916974015@fetion.com.cn;p=12201': ['', '', '0', 'B'], 'sip:483299184@fetion.com.cn;p=10101': ['\xe6\xb1\xaa\xe6\xb4\x8b', '', '0', 'B'], 'sip:733242635@fetion.com.cn;p=7007': ['', '', '0', 'B'], 'sip:752674899@fetion.com.cn;p=4020': ['', '', '0', 'B'], 'sip:736147807@fetion.com.cn;p=1022': ['', '', '0', 'B'], 'sip:682337266@fetion.com.cn;p=7008': ['', '', '0', 'B'], 'sip:748388903@fetion.com.cn;p=10101': ['', '', '0', 'B'], 'sip:619063865@fetion.com.cn;p=1124': ['', '', '0', 'B']}
+Line:387 Fun:send  content:SUB fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 SUB
+N: PresenceV4
+L: 172
+
+<args><subscription self="v4default;mail-count;impresa;sms-online-status;feed-version;feed-type;es2all" buddy="v4default;feed-version;feed-type;es2all" version="" /></args>
+Line:439 Fun:send  response:SIP-C/4.0 200 OK
+I: 1
+Q: 1 SUB
+
+
+Line:818 Fun:login  {'self': <PyFetion.PyFetion instance at 0x01AC6C38>, 'response': 'SIP-C/4.0 200 OK\r\nI: 1\r\nQ: 1 SUB\r\n\r\n', 'presence': '400'}
+Line:387 Fun:send  content:S fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 S
+N: GetOfflineMessages
+
+
+Line:439 Fun:send  response:
+Line:1173 Fun:receive  [('sip:986729515@fetion.com.cn;p=1720', '13581991416', '', '0')]
+Line:1177 Fun:receive  [('sip:986729515@fetion.com.cn;p=1720', '13581991416', '', '0')]
+Line:1173 Fun:receive  [('sip:853894946@fetion.com.cn;p=10101', '15120042147', '\xe5\xbe\x90\xe6\x81\xba', '0')]
+Line:1177 Fun:receive  [('sip:853894946@fetion.com.cn;p=10101', '15120042147', '\xe5\xbe\x90\xe6\x81\xba', '0')]
+Line:1173 Fun:receive  [('sip:586149380@fetion.com.cn;p=664', '13466360640', '\xe7\x8e\x8b\xe9\x94\xa6\xe9\xb9\x8f', '0')]
+Line:1177 Fun:receive  [('sip:586149380@fetion.com.cn;p=664', '13466360640', '\xe7\x8e\x8b\xe9\x94\xa6\xe9\xb9\x8f', '0')]
+Line:1173 Fun:receive  [('sip:761062135@fetion.com.cn;p=10101', '15120076110', 'Mile', '0'), ('sip:930480238@fetion.com.cn;p=9912', '15101124369', '', '0')]
+Line:1177 Fun:receive  [('sip:761062135@fetion.com.cn;p=10101', '15120076110', 'Mile', '0'), ('sip:930480238@fetion.com.cn;p=9912', '15101124369', '', '0')]
+Line:1173 Fun:receive  [('sip:619063865@fetion.com.cn;p=1124', '13522382465', '\xe5\xb0\x8f\xe5\xbc\xba', '0')]
+Line:1177 Fun:receive  [('sip:619063865@fetion.com.cn;p=1124', '13522382465', '\xe5\xb0\x8f\xe5\xbc\xba', '0')]
+Line:1173 Fun:receive  []
+Line:1177 Fun:receive  []
+Line:1173 Fun:receive  [('sip:733242635@fetion.com.cn;p=7007', '15810681361', 'SCat', '0')]
+Line:1177 Fun:receive  [('sip:733242635@fetion.com.cn;p=7007', '15810681361', 'SCat', '0')]
+Line:1173 Fun:receive  [('sip:910364454@fetion.com.cn;p=12209', '15210831696', '\xe7\xa6\xbe\xe8\x93\x9d', '0'), ('sip:753877900@fetion.com.cn;p=1649', '', '\xe6\x9d\x8e\xe5\xad\xa3', '0')]
+Line:1177 Fun:receive  [('sip:753877900@fetion.com.cn;p=1649', '', '\xe6\x9d\x8e\xe5\xad\xa3', '0'), ('sip:910364454@fetion.com.cn;p=12209', '15210831696', '\xe7\xa6\xbe\xe8\x93\x9d', '0')]
+Line:1173 Fun:receive  [('sip:916974015@fetion.com.cn;p=12201', '15210030201', '\xe8\x91\xa3\xe7\xab\x8b\xe9\x9b\x85', '0'), ('sip:748357094@fetion.com.cn;p=10101', '15120076763', '\xe6\x9d\x8e\xe6\xb5\xa9\xe6\xb3\xa2', '0')]
+Line:1177 Fun:receive  [('sip:916974015@fetion.com.cn;p=12201', '15210030201', '\xe8\x91\xa3\xe7\xab\x8b\xe9\x9b\x85', '0'), ('sip:748357094@fetion.com.cn;p=10101', '15120076763', '\xe6\x9d\x8e\xe6\xb5\xa9\xe6\xb3\xa2', '0')]
+Line:1173 Fun:receive  [('sip:761923923@fetion.com.cn;p=2369', '13646834958', '\xe5\xb0\x8f\xe7\x8f\x8d', '0')]
+Line:1177 Fun:receive  [('sip:761923923@fetion.com.cn;p=2369', '13646834958', '\xe5\xb0\x8f\xe7\x8f\x8d', '0')]
+Line:1173 Fun:receive  [('tel:15986801120', '15986801120', '0')]
+Line:1177 Fun:receive  [('tel:15986801120', '15986801120', '0')]
+Line:1173 Fun:receive  [('sip:736147807@fetion.com.cn;p=1022', '13512182283', '', '0')]
+Line:1177 Fun:receive  [('sip:736147807@fetion.com.cn;p=1022', '13512182283', '', '0')]
+Line:1173 Fun:receive  [('sip:769265920@fetion.com.cn;p=10101', '15120076109', '\xe5\xb2\xb3\xe7\xa3\x8a', '0'), ('sip:759058032@fetion.com.cn;p=10101', '15120076106', 'xuedong09', '0'), ('sip:754929598@fetion.com.cn;p=10101', '15120076100', 'DreamFox', '0')]
+Line:1177 Fun:receive  [('sip:769265920@fetion.com.cn;p=10101', '15120076109', '\xe5\xb2\xb3\xe7\xa3\x8a', '0'), ('sip:754929598@fetion.com.cn;p=10101', '15120076100', 'DreamFox', '0'), ('sip:759058032@fetion.com.cn;p=10101', '15120076106', 'xuedong09', '0')]
+Line:1173 Fun:receive  [('sip:367920581@fetion.com.cn;p=3422', '', '', '0')]
+Line:1177 Fun:receive  [('sip:367920581@fetion.com.cn;p=3422', '', '', '0')]
+Line:1173 Fun:receive  [('sip:752674899@fetion.com.cn;p=4020', '13811957695', '\xe6\x9d\x8e\xe5\xbf\x97\xe5\xbc\xba', '0')]
+Line:1177 Fun:receive  [('sip:752674899@fetion.com.cn;p=4020', '13811957695', '\xe6\x9d\x8e\xe5\xbf\x97\xe5\xbc\xba', '0')]
+Line:1173 Fun:receive  [('sip:760223300@fetion.com.cn;p=10101', '15120076113', '\xe5\xb9\xbd\xe5\x86\xa5\xe7\x8c\xab', '0')]
+Line:1177 Fun:receive  [('sip:760223300@fetion.com.cn;p=10101', '15120076113', '\xe5\xb9\xbd\xe5\x86\xa5\xe7\x8c\xab', '0')]
+Line:1173 Fun:receive  [('sip:748388903@fetion.com.cn;p=10101', '15120076724', '\xe4\xb9\xa6\xe7\x94\x9f', '0'), ('sip:682337266@fetion.com.cn;p=7008', '15810753790', '\xe7\x89\x9b\xe8\xae\xb0\xe6\xa3\xae', '0')]
+Line:1177 Fun:receive  [('sip:748388903@fetion.com.cn;p=10101', '15120076724', '\xe4\xb9\xa6\xe7\x94\x9f', '0'), ('sip:682337266@fetion.com.cn;p=7008', '15810753790', '\xe7\x89\x9b\xe8\xae\xb0\xe6\xa3\xae', '0')]
+Line:1173 Fun:receive  [('sip:483299184@fetion.com.cn;p=10101', '15120076096', '', '0')]
+Line:1177 Fun:receive  [('sip:483299184@fetion.com.cn;p=10101', '15120076096', '', '0')]
+Line:1173 Fun:receive  [('sip:791758463@fetion.com.cn;p=9004', '15010349161', '\xe6\xb5\xb7\xe6\x96\x87\xe8\x80\x83\xe7\xa0\x94\xe9\xa5\xb6\xe5\x8f\x8b\xe6\x89\x8d', '0'), ('sip:757854609@fetion.com.cn;p=5975', '15907446819', '\xe5\xbc\xa0\xe9\xaa\xa5', '0')]
+Line:1177 Fun:receive  [('sip:791758463@fetion.com.cn;p=9004', '15010349161', '\xe6\xb5\xb7\xe6\x96\x87\xe8\x80\x83\xe7\xa0\x94\xe9\xa5\xb6\xe5\x8f\x8b\xe6\x89\x8d', '0'), ('sip:757854609@fetion.com.cn;p=5975', '15907446819', '\xe5\xbc\xa0\xe9\xaa\xa5', '0')]
+Line:387 Fun:send  content:R fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 R
+X: 0
+
+
+Line:439 Fun:send  response:SIP-C/4.0 200 OK
+I: 1
+Q: 1 R
+
+
+Line:1150 Fun:receive  logout

@@ -1,0 +1,227 @@
+Line:602 Fun:http_send  url:https://uid.fetion.com.cn/ssiportal/SSIAppSignInV4.aspx?mobileno=15801178340&domains=fetion.com.cn%3bm161.com.cn%3bwww.ikuwa.cn&v4digest-type=1&v4digest=244f29ed6cbbbc950264add77e14ccd080578912
+Line:1328 Fun:__get_uri  {'status': '101', 'body': '<?xml version="1.0" encoding="utf-8" ?><results status-code="200"><user uri="sip:409242450@fetion.com.cn;p=30377" mobile-no="15801178340" user-status="101" user-id="810249392"><credentials><credential domain="fetion.com.cn" c="CBIOAADIuGK8KNbTIKWTRFf029fXTjfLdApyGxRSp3wczgEvTZmKgouCOBa+fQeZ6Cq2UpWODG0ur7T/zhW9x3iWWt4j1lyerZYoPecFWHON57lvoB6LIrUf2tfupii0+9zxWAQAAA==" /><credential domain="m161.com.cn" c="CRAOAADs6vTRJObTFscVtxwLv7GInRrH0S8ilsmL6IUedwuycOsyewzOL9eiLDlcPSVIwbCGNKkNfI2cUAT+shEf7S6l7Sp2jZfXjs7TQKDpxNhIlw==" /><credential domain="www.ikuwa.cn" c="CBAOAABWDUd7CifXfK2EpXUWG0syLXquaLN5RP/hiRqyyFmERyIqg4N7bBwnnTZLK4PaoFqFxlqlODbF969IoAuuLEMjjAZBrHNwmYYbXS1nqaN17w==" /></credentials></user></results>', 'domain': 'fetion.com.cn', 'user_id': '810249392', 'ssic': 'DhIOAAA0Cnn5++56FzW/T3UAfyx6XFc2xOstx6BAZ4YIB4TL7hAjm1ppW7uSJ5Z5yyquXH9W/+jtL5U2ooj6h/HAlGCC2VUGXF2BuC3gB4UKkCmY+RvHGQfq6iGL8Ku667JLvgIAAA==', 'url': 'https://uid.fetion.com.cn/ssiportal/SSIAppSignInV4.aspx?mobileno=15801178340&domains=fetion.com.cn%3bm161.com.cn%3bwww.ikuwa.cn&v4digest-type=1&v4digest=244f29ed6cbbbc950264add77e14ccd080578912', 'self': <lib.PyFetion.PyFetion instance at 0x01BCEF80>, 'uri': 'sip:409242450@fetion.com.cn;p=30377', 'ret': <addinfourl at 29160832 whose fp = <socket._fileobject object at 0x01BCC9F0>>, 'header': 'Connection: close\r\nDate: Mon, 16 Apr 2012 09:46:27 GMT\r\nServer: Microsoft-IIS/6.0\r\nX-Powered-By: ASP.NET\r\nContent-Location: www.feixin.com.cn\r\nX-AspNet-Version: 2.0.50727\r\nSet-Cookie: ssic=DhIOAAA0Cnn5++56FzW/T3UAfyx6XFc2xOstx6BAZ4YIB4TL7hAjm1ppW7uSJ5Z5yyquXH9W/+jtL5U2ooj6h/HAlGCC2VUGXF2BuC3gB4UKkCmY+RvHGQfq6iGL8Ku667JLvgIAAA==; path=/\r\nCache-Control: private\r\nContent-Type: text/html; charset=utf-8\r\nContent-Length: 715\r\n', 'sid': '409242450'}
+Line:387 Fun:send  content:R fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 R
+CN: 491c23644b7769ede1af078cb14901e2
+CL: type="pc",version="4.1.1160"
+
+
+Line:439 Fun:send  response:SIP-C/4.0 401 Unauthoried
+F: 409242450
+I: 1
+Q: 1 R
+W: Digest algorithm="SHA1-sess-v4",nonce="123624D24D844C3D15EE9D844E757279",key="A62CBA715C0C246479452B0FBA8C83062E7349B99777B0CEE75A993C9E8E9A797C96B1AA4ACE867E08FABE357C73A80326CBF2F401A0D678B57B9DC38FEE416E1AE1E69F7D04DA7BBA2F268C8E15BC09E9001E36F4E666858DC958B02C498FF29AC341973597BC200B6412592B2C196780A651D4BF1C9D709EDD21B81ECD3D3F010001",signature="5F18AE64380C22AEFD10E362C0CBC8F353C1E99E2C4ADC92C660FECB67DF2E8693042B739670BFD9658BA3A4FD83D03ED6FB5902B2EB04A2D1734ADED60CA7A90FEDC96D2C05D13C79E127BE6B67EB9E10AFCA7B620D5081981D86737C6FBC85592C7223C8A284091037C0BB6352FE57116B3164C47AF67C32406670018E1CE9"
+D: Mon, 16 Apr 2012 09:46:27 GMT
+
+
+Line:387 Fun:send  content:R fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 R
+A: Digest algorithm="SHA1-sess-v4",response="6ebb7b32887485f36cdb11f093085f019c231606c7997de84c50aa9ef46d7196e4fcf1dec23556d8c83cdb28c9e68ca9db8c56f50b38eae5a7857cb3ae3145fe076711de3339d613b93fdfa3929e4cf7dcd8896fe6d33376c42319a67ac485b206282cfb7eebba584709be9b33e912fe7cc4fbe1dcb343dff5f773bdf9a358be"
+L: 574
+
+<args><device accept-language="default" machine-code="0A0003000000" /><caps value="1FFF" /><events value="7F" /><user-info mobile-no="15801178340" user-id="810249392"><personal version="0" attributes="v4default;alv2-version;alv2-warn;dynamic-version" /><custom-config version="0"/><contact-list version="0" buddy-attributes="v4default" /></user-info><credentials domains="fetion.com.cn;m161.com.cn;www.ikuwa.cn;games.fetion.com.cn;turn.fetion.com.cn;pos.fetion.com.cn;ent.fetion.com.cn;mms.fetion.com.cn"/><presence><basic value="0" desc="" /><extendeds /></presence></args>
+Line:439 Fun:send  response:SIP-C/4.0 200 OK
+I: 1
+Q: 1 R
+L: 11071
+X: 600
+
+<results><client public-ip="61.135.172.68" login-place="" last-login-ip="58.215.177.34" last-login-place="" last-login-time="Mon, 16 Apr 2012 06:59:37 GMT" current-login-time="Mon, 16 Apr 2012 09:46:27 GMT" /><user-info><personal version="387750346" register-email="" user-id="810249392" sid="409242450" mobile-no="15801178340" uri="sip:409242450@fetion.com.cn;p=30377" name="" nickname="KKT" gender="0" impresa="除非飞信被盗，我从来不会在飞信上给盆友们借钱！" portrait-crc="0" birth-date="2012-01-01" birthday-valid="1" carrier="CMCC" carrier-status="0" carrier-region="CN.bj.10." user-region="CN.bj.10." profile="" blood-type="0" occupation="" hobby="" job-title="" home-phone="" work-phone="" other-phone="" personal-email="" work-email="" other-email="" primary-email="0" company="" company-website="" global-permission="identity=0;phone=1;email=1;birthday=1;business=0;presence=1;contact=1;location=3;buddy=2;ivr=2;buddy-ex=0;show=1;" sms-online-status="0.0:0:0" save-xeno-msg="0" email-binding-status="1" email-binding-alias="" set-pwd-question="0" alv2-version="386539302" alv2-warn="0" dynamic-version="-1926425522"/><configs><config name="weather-city">-1</config><config name="directsms-rec">1517966128</config><config name="weather-region"></config><config name=" addbuddy-app-sms">0</config><config name="private-presence"></config><config name="permission-request">0</config><config name="sms-notify">0</config><config name="schedule-sms-receipt">1</config><config name="weather-ip">1</config><config name="rev-offlinefile-sms">1</config><config name="send-offlinefile-sms">1</config><config name="group-invite-config">1</config><config name="sms-nickname-config">0</config><config name="autoreply-config"></config><config name="syncto-shequ-config">0</config><config name="weather-regionex"></config><config name="alv2-setwarn">0</config></configs><custom-config version="387072018">H4sIACETf08EAHRW7W6rOBB9lfsCVbDBfChWpH7ujZT0VqWr/qxoMknQgo2waZa338GYxAS2qtTOOWc84/F4MP9bQf0oxSE/NnWmcylW/H6/30mhs51+q2VZ6ZXHFxOMpyd53mQalN6CUtkR1OqQFQr4YoYx6o+8RCwrq+cfqNutOq503Vj9lOPPQkP9IVMQeyt0EX7faPkOVdE+i+y7gEEzgfm2VVAc1uKxz19tcqWteJYyub7C2Sb/eQk/xfnVfJU6P7RWOYH5Sep/oP1SuISAc6mOZ3S/oySIKCU+oXwxq+BvNSjQNxnaOs9y/B1KqeEddiD0wNi0Zim+yZTeyGMuujNYEZpEMfVISOMoYCxkfDEWcLszPIdtOqQywq5HsxZ7+Ne0zxjhGymOKE1B61wMfXAD8pfn9dtgYIFck58h0yeo7/JqRfjCsfhn//8THLKmGA76BsSyyp9c7GD9tOrqeDUec93iX+olESW4srV5Wqq+TSunH0YYT7WsOjtt1Vg2wflftWyqp1xVRdZu5R66Ek2wXvUwFliT3ziP/ByD3pAU04QCdhr2rotNdIbphgG2mRoCuebAdZu74S/QRSNrbQD/qhmgQWM2aJA7clFdwctSrdj1nbiYIF3cP6LIBdj+RqN159KU5H2uNTyBzvJCOZfdRbn1Mfmo1cZbpv4yJcuULtNgiY0yorntNGO+ZibZKbQ2dXJxG3yGMGna/RpvZ1Mu7Oqw3dztuCi/P2ftH7HeF8PpO4BDbnPR4CRfMVcwgFaX7moAkWY4uUdruTj/czh0lbcRbPJjcKz5LZtadfd+BuUPjcIAL01R9EFs3AnMX2V/4v0c/jyB6DTDmJ4n0Wk0vSde8yx3F+vuwsjmL9mPrHM99B42xASpzWS++272+xzLG7LYD/wkCH7hUGY0JH4QxZ75WQY0Zn7sJ57hfD9ixKOWSxjzSRRaPxb5hATEctSLQ+p7fs/FzCMJDYY1o5BgNJ92XIho5NOLH2UkTKIg7LgoZEngEy8g+KXwlnESJLhMn0vHRZgbYSG1eRIfnQcuCbyA+gl19hD1XOh5LApwsY7rkosDNC1HQy/BZKnhPJ9geDZwieclQewTty7McFFMkgjV+B9LliELQppgaMMhRaPIi2NE2JIGCQuYR8nAYRr4G0YRxct9czD8uazyevzJH0Hdu+A7h1RnulGrvoSeeRZcUZ7mZVXACMPhOIPiarDvkZtXxg1s7v5DXuvTJxQ7WcIbdqkzACYU/41PBlm37zIr8bP60VZmiM+g/OMEJTxkRSGleG3KTnYL8bK/F1/CpPOFD5gvMK+w4b7/v4A/NhizhNo8avBjrH4t8IpMX6f/AQAA//8AAAAAsQoAAA==</custom-config><contact-list version="387817183"><buddy-lists><buddy-list id="1" name="老婆"/><buddy-list id="2" name="同学"/><buddy-list id="3" name="TS"/><buddy-list id="4" name="relat"/><buddy-list id="5" name="kktContest"/><buddy-list id="6" name="kktMall"/></buddy-lists><buddies><b i="203143158" u="sip:752674899@fetion.com.cn;p=4020" n="leefour" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="208623034" u="sip:619063865@fetion.com.cn;p=1124" n="litstrong" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="209620561" u="sip:986729515@fetion.com.cn;p=1720" n="water" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="225169746" u="sip:631874187@fetion.com.cn;p=20128" n="荀为谦" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="249545021" u="sip:605062929@fetion.com.cn;p=3810" n="" l="4" f="0" r="1" o="0" p="identity=1;"/><b i="252787778" u="sip:757854609@fetion.com.cn;p=5975" n="cradle" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="254815494" u="sip:733242635@fetion.com.cn;p=30015" n="" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="254816713" u="sip:776062531@fetion.com.cn;p=30015" n="B1" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="254904547" u="sip:682337266@fetion.com.cn;p=30015" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="258527036" u="sip:762245795@fetion.com.cn;p=9750" n="Jingbaby菁靈" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="263028246" u="sip:435775806@fetion.com.cn;p=1825" n="爸" l="4" f="0" r="1" o="0" p="identity=1;"/><b i="271114433" u="sip:513069092@fetion.com.cn;p=5283" n="素洁" l="4" f="0" r="1" o="0" p="identity=1;"/><b i="295884748" u="sip:761923923@fetion.com.cn;p=2369" n="" l="1" f="0" r="1" o="0" p="identity=1;"/><b i="427364438" u="sip:930480238@fetion.com.cn;p=9912" n="" l="" f="0" r="1" o="0" p="identity=1;"/><b i="428513251" u="sip:483299184@fetion.com.cn;p=10101" n="汪洋" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538390" u="sip:754929598@fetion.com.cn;p=30015" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538395" u="sip:759058032@fetion.com.cn;p=10101" n="雪东" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538397" u="sip:769265920@fetion.com.cn;p=30041" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538400" u="sip:760223300@fetion.com.cn;p=30015" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538949" u="sip:748356282@fetion.com.cn;p=30015" n="包子" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428538950" u="sip:748359070@fetion.com.cn;p=30015" n="" l="6" f="0" r="1" o="0" p="identity=1;"/><b i="428538960" u="sip:748357094@fetion.com.cn;p=30015" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="428621147" u="sip:853894946@fetion.com.cn;p=30015" n="" l="" f="0" r="1" o="0" p="identity=1;"/><b i="449171370" u="sip:736147807@fetion.com.cn;p=1022" n="不知道是谁" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="464967511" u="sip:586149380@fetion.com.cn;p=30015" n="jp" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="464984624" u="sip:930569235@fetion.com.cn;p=30015" n="B2陈娟" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="476194432" u="sip:761062135@fetion.com.cn;p=30015" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="476194434" u="sip:755744046@fetion.com.cn;p=10101" n="" l="" f="0" r="0" o="0" p="identity=1;"/><b i="476194565" u="sip:748388903@fetion.com.cn;p=30015" n="" l="" f="0" r="1" o="0" p="identity=1;"/><b i="476194599" u="sip:748344380@fetion.com.cn;p=30015" n="" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="654629920" u="sip:910364454@fetion.com.cn;p=12209" n="郑春梅老师" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="658343944" u="sip:916974015@fetion.com.cn;p=12201" n="" l="" f="0" r="1" o="0" p="identity=1;"/><b i="662556397" u="sip:944184413@fetion.com.cn;p=12206" n="漂流の瓶子" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="733296696" u="sip:481917547@fetion.com.cn;p=12208" n="KSnow" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="733787129" u="sip:482683297@fetion.com.cn;p=737" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="734514946" u="sip:753877900@fetion.com.cn;p=1649" n="" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="823703593" u="sip:425693468@fetion.com.cn;p=12111" n="wwj" l="5" f="0" r="1" o="0" p="identity=1;"/><b i="884731864" u="sip:359954001@fetion.com.cn;p=4102" n="胡倩" l="3" f="0" r="1" o="0" p="identity=1;"/><b i="894919290" u="sip:367920581@fetion.com.cn;p=3422" n="PigSuper" l="2" f="0" r="1" o="0" p="identity=1;"/><b i="955317644" u="tel:15986801120" n="鸭子" l="3" r="1" o="0" p="identity=1;"/><b i="1082752466" u="sip:513002031@fetion.com.cn;p=15318" n="珍爸" l="4" f="0" r="1" o="0" p="identity=1;"/><b i="1095852443" u="sip:265995730@fetion.com.cn;p=6288" n="妈妈" l="4" f="0" r="1" o="0" p="identity=1;"/></buddies><chat-friends></chat-friends><blacklist></blacklist></contact-list><score value="2607" level="4" level-score="1639"/><services><service id="99"/></services><quotas><quota-limit><limit name="max-buddies" value="500"/><limit name="max-groupadmin-count" value="4"/><limit name="max-joingroup-count" value="20"/></quota-limit><quota-frequency><frequency name="send-sms" day-limit="1000" day-count="90" month-limit="15000" month-count="741"/></quota-frequency></quotas><capability-list basic-caps="1ffff" contact-caps="ffffff" extended-caps="7301fff"><contact carrier="HK.OTHER" contact-caps="0" /><contact carrier="SGSH" contact-caps="857c08" /><contact carrier="" contact-caps="a57008" /><contact carrier="CMCC" contact-caps="ffffff" /><contact carrier="CT" contact-caps="e57c1c" /><contact carrier="CUCC" contact-caps="e57c1c" /><contact carrier="CMHK" contact-caps="9ffc9f" /><contact carrier="SGST" contact-caps="857c08" /><contact carrier="CMPAK" contact-caps="857c08" /></capability-list></user-info><credentials kernel="xlEWlUArPk+jS/1iYekf1fnQq489johnBWrJMBEAktc2aGFULZJxCAV8FwMEc+OsXrM+AD009/c1gd4b2NhYq9NMaEeXyNemQzCIUCluCMUTQadb5Nbnykuqwx+s1imUBGltpRwxwsYNJna1qmN/aFV5WFIhUQV/5np8OPyyfl4SeaV3E07Ev1fimpQkWXW8"><credential domain="fetion.com.cn" c="19ibvn/H82MKmUczhnpiK6CGHRx+g/vh6FFFNixUzgOfhezUKZky6hQwL/u+iXBMtq4U3qfjnbDzU3nNyU1wT3/AUE/bhZ9y1kZAtJtj/eHi13Mccum0Ct8FJu0/6dfdfmjxNURi5yKr0C5FOTUJy4A8tmZ6U26j/Qv64pnKqED8IGHPU3RPBYJz+ArCEGBf"/><credential domain="m161.com.cn" c="kw/5+E9iYSUMAcqObxF1qVmtua2RCti/0YGzm8HMJYorUjWUwkiiMSLaCULH9+xwGEt+3Vg1TgS5hOeqVHT669qtgYw7cZS15Tk26qxLNX4B44u6y0o2IzUq47e6YPnpTrBrwYr0Dagko+FxoRuZruYiTniFfe96UUoJFesRamk="/><credential domain="www.ikuwa.cn" c="rdDYiAiEdimxo3pegi1JkmT2j2ACXRNJgqMQ3WNz1CcRpXegPLKLe7GRSKuP818EDB8FRlgz6iIcVcjF34AQscLr0gD0T3duaz2k/K9fIIsEFVGiL3NOAmlAWTBBqs6lf/CHRPLAQY2iMSUk8kh24XhwcSd6p9hx0COKbysITg4="/><credential domain="games.fetion.com.cn" c="z7iokr74dN/ZyGVoGKvgx/ygSW12VYZeoq5JvM+CsEVsl/D4Esxv6Oq1fRw7tv2jQd2rbUykyjAHefm0EwjhPO3nYM0epG56yy5Oz9Hzt3DXFiuVF4uHxPZAPJYNsEMiBWdPPhgrqTZRQjd2tQMzY3HbUEX9FaOJI5b/dLm4lO61WiUlsZU5UioaAZoWCoUM"/><credential domain="turn.fetion.com.cn" c="GPr5zaNooPAIa0tVoOgnnOFnr4lh+tvo7uGnpuYFIDwyS6RPeUy8tcEp08+zgk+3U+j6ZrNrLpWPwDiQ4e/pOIsd6S46mKZ9yJntpTztG3fFK2ZWAgh9Y/n2PW7BqfT9gSzA4ZxuAH83nrSeCGHXFcZZ33fBlVt0iCVmBylc4rg="/><credential domain="pos.fetion.com.cn" c="R9xog1xsVQh8bQupfkk83Gzjd/Rm6vfQW+9JFKDxY3zlP70cYXj0j05ZEDIPo3N6koba+ZkXNhQEWoeIxD8OI15h7zB22syzYQV4nuyk2N+x94DDHphTCC1t0rItGx0uK6jxCIvxYV/L69BofQ6w11eb7PCHUZPbDJD2k60cngE="/><credential domain="ent.fetion.com.cn" c="yP0suXihK31h2psLYrPPp4ZMgnohOaMfstob3mhID8v9lrOZZm9nI/3ChOURaFb0jlDb+/I/o+lomTzKED+3oaiqYgn5emijCU43QvuSr6fEoLCU6mEyW6bbln2XVax2cUA0zKj21YDfsSdqr3EQ7gcRetUydCe2AESo9kxLEN5Tau095SY8/0UGK2p8+beo"/><credential domain="mms.fetion.com.cn" c="fJblLlKQWm8qnplQodfSeff/g7wksS4xZHZjQXHMKwDwuA1RwG42+ATH3VR4bHfe8AzYC+9N9K0odI/rPWAdl6xcwjfcRFS/aq6OKZZ+o5DTPTd6afXIDnfXC+fljLBLKFG/9u6F29Dee4liesustTLd68hw9ZMq2kwhkR0tY+w="/></credentials></results>
+Line:1270 Fun:__register  register successful.
+Line:1032 Fun:_get_contactlist  {'sip:748356282@fetion.com.cn;p=30015': ['\xe5\x8c\x85\xe5\xad\x90', '', '0', 'B'], 'sip:759058032@fetion.com.cn;p=10101': ['\xe9\x9b\xaa\xe4\xb8\x9c', '', '0', 'B'], 'tel:15986801120': ['\xe9\xb8\xad\xe5\xad\x90', '15986801120', '0', 'T'], 'sip:748359070@fetion.com.cn;p=30015': ['', '', '0', 'B'], 'sip:930569235@fetion.com.cn;p=30015': ['B2\xe9\x99\x88\xe5\xa8\x9f', '', '0', 'B'], 'sip:757854609@fetion.com.cn;p=5975': ['cradle', '', '0', 'B'], 'sip:513002031@fetion.com.cn;p=15318': ['\xe7\x8f\x8d\xe7\x88\xb8', '', '0', 'B'], 'sip:910364454@fetion.com.cn;p=12209': ['\xe9\x83\x91\xe6\x98\xa5\xe6\xa2\x85\xe8\x80\x81\xe5\xb8\x88', '', '0', 'B'], 'sip:755744046@fetion.com.cn;p=10101': ['', '', '0', 'B'], 'sip:753877900@fetion.com.cn;p=1649': ['', '', '0', 'B'], 'sip:748344380@fetion.com.cn;p=30015': ['', '', '0', 'B'], 'sip:986729515@fetion.com.cn;p=1720': ['water', '', '0', 'B'], 'sip:682337266@fetion.com.cn;p=30015': ['', '', '0', 'B'], 'sip:930480238@fetion.com.cn;p=9912': ['', '', '0', 'B'], 'sip:776062531@fetion.com.cn;p=30015': ['B1', '', '0', 'B'], 'sip:425693468@fetion.com.cn;p=12111': ['wwj', '', '0', 'B'], 'sip:631874187@fetion.com.cn;p=20128': ['\xe8\x8d\x80\xe4\xb8\xba\xe8\xb0\xa6', '', '0', 'B'], 'sip:761923923@fetion.com.cn;p=2369': ['', '', '0', 'B'], 'sip:435775806@fetion.com.cn;p=1825': ['\xe7\x88\xb8', '', '0', 'B'], 'sip:769265920@fetion.com.cn;p=30041': ['', '', '0', 'B'], 'sip:481917547@fetion.com.cn;p=12208': ['KSnow', '', '0', 'B'], 'sip:367920581@fetion.com.cn;p=3422': ['PigSuper', '', '0', 'B'], 'sip:761062135@fetion.com.cn;p=30015': ['', '', '0', 'B'], 'sip:754929598@fetion.com.cn;p=30015': ['', '', '0', 'B'], 'sip:916974015@fetion.com.cn;p=12201': ['', '', '0', 'B'], 'sip:483299184@fetion.com.cn;p=10101': ['\xe6\xb1\xaa\xe6\xb4\x8b', '', '0', 'B'], 'sip:748388903@fetion.com.cn;p=30015': ['', '', '0', 'B'], 'sip:760223300@fetion.com.cn;p=30015': ['', '', '0', 'B'], 'sip:748357094@fetion.com.cn;p=30015': ['', '', '0', 'B'], 'sip:605062929@fetion.com.cn;p=3810': ['', '', '0', 'B'], 'sip:482683297@fetion.com.cn;p=737': ['', '', '0', 'B'], 'sip:513069092@fetion.com.cn;p=5283': ['\xe7\xb4\xa0\xe6\xb4\x81', '', '0', 'B'], 'sip:853894946@fetion.com.cn;p=30015': ['', '', '0', 'B'], 'sip:359954001@fetion.com.cn;p=4102': ['\xe8\x83\xa1\xe5\x80\xa9', '', '0', 'B'], 'sip:586149380@fetion.com.cn;p=30015': ['jp', '', '0', 'B'], 'sip:944184413@fetion.com.cn;p=12206': ['\xe6\xbc\x82\xe6\xb5\x81\xe3\x81\xae\xe7\x93\xb6\xe5\xad\x90', '', '0', 'B'], 'sip:752674899@fetion.com.cn;p=4020': ['leefour', '', '0', 'B'], 'sip:265995730@fetion.com.cn;p=6288': ['\xe5\xa6\x88\xe5\xa6\x88', '', '0', 'B'], 'sip:762245795@fetion.com.cn;p=9750': ['Jingbaby\xe8\x8f\x81\xe9\x9d\x88', '', '0', 'B'], 'sip:736147807@fetion.com.cn;p=1022': ['\xe4\xb8\x8d\xe7\x9f\xa5\xe9\x81\x93\xe6\x98\xaf\xe8\xb0\x81', '', '0', 'B'], 'sip:733242635@fetion.com.cn;p=30015': ['', '', '0', 'B'], 'sip:619063865@fetion.com.cn;p=1124': ['litstrong', '', '0', 'B']}
+Line:387 Fun:send  content:SUB fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 SUB
+N: PresenceV4
+L: 172
+
+<args><subscription self="v4default;mail-count;impresa;sms-online-status;feed-version;feed-type;es2all" buddy="v4default;feed-version;feed-type;es2all" version="" /></args>
+Line:439 Fun:send  response:SIP-C/4.0 200 OK
+I: 1
+Q: 1 SUB
+
+
+Line:818 Fun:login  {'self': <lib.PyFetion.PyFetion instance at 0x01BCEF80>, 'response': 'SIP-C/4.0 200 OK\r\nI: 1\r\nQ: 1 SUB\r\n\r\n', 'presence': '0'}
+Line:387 Fun:send  content:S fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 S
+N: GetOfflineMessages
+
+
+Line:439 Fun:send  response:
+Line:387 Fun:send  content:M fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 M
+T: tel:15801178340
+N: SendCatSMS
+L: 95
+
+[Surprise!] C++ Primer中文版(第4版)(图灵程序设计丛书) at 亚马逊 sell ￥68.3元
+Line:439 Fun:send  response:SIP-C/4.0 400 Bad Request
+I: 1
+Q: 1 S
+
+BN 409242450 SIP-C/4.0
+N: PresenceV4
+I: 1
+L: 474
+Q: 15 BN
+Line:1087 Fun:send_msg  {'code': 400, 'self': <lib.PyFetion.PyFetion instance at 0x01BCEF80>, 'to': u'tel:15801178340', 'flag': 'SendCatSMS', 'msg': '[Surprise!] C++ Primer\xe4\xb8\xad\xe6\x96\x87\xe7\x89\x88(\xe7\xac\xac4\xe7\x89\x88)(\xe5\x9b\xbe\xe7\x81\xb5\xe7\xa8\x8b\xe5\xba\x8f\xe8\xae\xbe\xe8\xae\xa1\xe4\xb8\x9b\xe4\xb9\xa6) at \xe4\xba\x9a\xe9\xa9\xac\xe9\x80\x8a sell \xef\xbf\xa568.3\xe5\x85\x83', 'response': 'SIP-C/4.0 400 Bad Request\r\nI: 1\r\nQ: 1 S\r\n\r\nBN 409242450 SIP-C/4.0\r\nN: PresenceV4\r\nI: 1\r\nL: 474\r\nQ: 15 BN'}
+Line:387 Fun:send  content:M fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 M
+T: tel:15801178340
+N: SendCatSMS
+L: 66
+
+[Surprise!] C++ Primer中文版(第4版) at 京东 sell ￥68.3元
+Line:439 Fun:send  response:
+Line:1087 Fun:send_msg  {'code': '', 'self': <lib.PyFetion.PyFetion instance at 0x01BCEF80>, 'to': u'tel:15801178340', 'flag': 'SendCatSMS', 'msg': '[Surprise!] C++ Primer\xe4\xb8\xad\xe6\x96\x87\xe7\x89\x88(\xe7\xac\xac4\xe7\x89\x88) at \xe4\xba\xac\xe4\xb8\x9c sell \xef\xbf\xa568.3\xe5\x85\x83', 'response': ''}
+Line:387 Fun:send  content:M fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 M
+T: tel:15801178340
+N: SendCatSMS
+L: 104
+
+[Surprise!] C++ Primer中文版(第4版)(一本久负盛名的C++经典教程) at 当当 sell ￥68.3元
+Line:439 Fun:send  response:SIP-C/4.0 280 Send SMS OK
+T: tel:15801178340
+I: 1
+Q: 1 M
+L: 117
+D: Mon, 16 Apr 2012 09:46:35 GMT
+XI: 6281974AD58469A4C1889C7ECCC510DD
+
+<results><quota-frequency><frequency name="send-sms" day-count="91" month-count="742"/>  </quota-frequency></results>
+Line:1083 Fun:send_msg  Send sms OK!
+Line:387 Fun:send  content:M fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 M
+T: tel:15801178340
+N: SendCatSMS
+L: 152
+
+[Surprise!] C++ Primer中文版(第4版)(09年度畅销榜NO.9)(08年度畅销榜NO.7)(被《程序员》等机构评选为200 at 互动 sell ￥74.2元
+Line:439 Fun:send  response:SIP-C/4.0 280 Send SMS OK
+T: tel:15801178340
+I: 1
+Q: 1 M
+L: 117
+D: Mon, 16 Apr 2012 09:46:35 GMT
+XI: 3F891D7ACA0627E31B148B8E81DD4F05
+
+<results><quota-frequency><frequency name="send-sms" day-count="92" month-count="743"/>  </quota-frequency></results>
+Line:1083 Fun:send_msg  Send sms OK!
+Line:387 Fun:send  content:M fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 M
+T: tel:15801178340
+N: SendCatSMS
+L: 77
+
+[Surprise!] C++ Primer 中文版-(第4版) at 北发图书网 sell ￥74.3元
+Line:439 Fun:send  response:SIP-C/4.0 500 Server Internal Error
+T: tel:15801178340
+I: 1
+Q: 1 M
+
+
+Line:1087 Fun:send_msg  {'code': 500, 'self': <lib.PyFetion.PyFetion instance at 0x01BCEF80>, 'to': u'tel:15801178340', 'flag': 'SendCatSMS', 'msg': '[Surprise!] C++ Primer \xe4\xb8\xad\xe6\x96\x87\xe7\x89\x88-(\xe7\xac\xac4\xe7\x89\x88) at \xe5\x8c\x97\xe5\x8f\x91\xe5\x9b\xbe\xe4\xb9\xa6\xe7\xbd\x91 sell \xef\xbf\xa574.3\xe5\x85\x83', 'response': 'SIP-C/4.0 500 Server Internal Error\r\nT: tel:15801178340\r\nI: 1\r\nQ: 1 M\r\n\r\n'}
+Line:387 Fun:send  content:M fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 M
+T: tel:15801178340
+N: SendCatSMS
+L: 72
+
+[Surprise!] C++ PRIMER中文版(第4版) at 新华书店 sell ￥76.7元
+Line:439 Fun:send  response:SIP-C/4.0 280 Send SMS OK
+T: tel:15801178340
+I: 1
+Q: 1 M
+L: 117
+D: Mon, 16 Apr 2012 09:46:35 GMT
+XI: 24D0BE284115339BA0CD8F2BE2C72CEC
+
+<results><quota-frequency><frequency name="send-sms" day-count="93" month-count="744"/>  </quota-frequency></results>
+Line:1083 Fun:send_msg  Send sms OK!
+Line:387 Fun:send  content:M fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 M
+T: tel:15801178340
+N: SendCatSMS
+L: 67
+
+[Surprise!] C++Primer中文版第4版 at BooksChina sell ￥78.2元
+Line:439 Fun:send  response:SIP-C/4.0 280 Send SMS OK
+T: tel:15801178340
+I: 1
+Q: 1 M
+L: 117
+D: Mon, 16 Apr 2012 09:46:35 GMT
+XI: 0B1116135E1582AFA2AE5598870AED16
+
+<results><quota-frequency><frequency name="send-sms" day-count="94" month-count="745"/>  </quota-frequency></results>
+Line:1083 Fun:send_msg  Send sms OK!
+Line:387 Fun:send  content:M fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 M
+T: tel:15801178340
+N: SendCatSMS
+L: 71
+
+[Surprise!] C++ Primer 中文版(第四版) at 99书城 sell ￥79.2元
+Line:439 Fun:send  response:SIP-C/4.0 500 Server Internal Error
+T: tel:15801178340
+I: 1
+Q: 1 M
+
+
+Line:1087 Fun:send_msg  {'code': 500, 'self': <lib.PyFetion.PyFetion instance at 0x01BCEF80>, 'to': u'tel:15801178340', 'flag': 'SendCatSMS', 'msg': '[Surprise!] C++ Primer \xe4\xb8\xad\xe6\x96\x87\xe7\x89\x88(\xe7\xac\xac\xe5\x9b\x9b\xe7\x89\x88) at 99\xe4\xb9\xa6\xe5\x9f\x8e sell \xef\xbf\xa579.2\xe5\x85\x83', 'response': 'SIP-C/4.0 500 Server Internal Error\r\nT: tel:15801178340\r\nI: 1\r\nQ: 1 M\r\n\r\n'}
+Line:387 Fun:send  content:M fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 M
+T: tel:15801178340
+N: SendCatSMS
+L: 66
+
+[Surprise!] C++ Primer中文版(第4版) at 蔚蓝 sell ￥82.2元
+Line:439 Fun:send  response:SIP-C/4.0 280 Send SMS OK
+T: tel:15801178340
+I: 1
+Q: 1 M
+L: 117
+D: Mon, 16 Apr 2012 09:46:35 GMT
+XI: EBDDB8711FD66588B44F2A91305C8B38
+
+<results><quota-frequency><frequency name="send-sms" day-count="95" month-count="746"/>  </quota-frequency></results>
+Line:1083 Fun:send_msg  Send sms OK!
+Line:387 Fun:send  content:R fetion.com.cn SIP-C/4.0
+F: 409242450
+I: 1
+Q: 1 R
+X: 0
+
+
+Line:439 Fun:send  response:SIP-C/4.0 500 Server Internal Error
+T: tel:15801178340
+I: 1
+Q: 1 M
+
+
