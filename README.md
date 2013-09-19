@@ -1,6 +1,6 @@
 **This is really a cool thing**! It's my graduation project;   
 Based on *MVC*, *Django* & *Python*;   
-Support users submit their interested information customization;   
+Support users custome and submit their interested information;   
 Back end spider retrieves information（Programming Contest, Goods on sale and discount, Job Presentation）on the Internet periodically, then push it to users;     
 ____     
 这是一个很有意思的项目！来自我的本科毕设课题；  
